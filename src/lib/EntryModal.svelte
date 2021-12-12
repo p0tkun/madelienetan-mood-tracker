@@ -48,19 +48,19 @@ let comment ="This is a comment";
             <div class="row">
                 <div class="col">
                 <form class="form-floating">
-                    <input type="number" class="form-control" id="dayInput" value="1" min="1" max="31" bind:value={day} />
+                    <input type="number" class="form-control" id="dayInput" min="1"  max="31" bind:value={day} />
                     <label for="dayInput">Day</label>
                 </form>
                 </div>
                 <div class="col">
                 <form class="form-floating">
-                    <input type="number" class="form-control" id="monthInput" value="1" min="1" max="12" bind:value={month}/>
+                    <input type="number" class="form-control" id="monthInput" min="1" max="12" bind:value={month}/>
                     <label for="monthInput">Month</label>
                 </form>
                 </div>
                 <div class="col">
                 <form class="form-floating">
-                    <input type="number" class="form-control" id="yearInput" value="2021" min="1" max="2021" bind:value={year}/>
+                    <input type="number" class="form-control" id="yearInput" min="1" max="2021" bind:value={year}/>
                     <label for="yearInput">Year</label>
                 </form>
                 </div>

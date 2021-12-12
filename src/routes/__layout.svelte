@@ -32,7 +32,3 @@
 <Navbar />
 
 <slot />
-
-
-<Navbar />
-<slot />
